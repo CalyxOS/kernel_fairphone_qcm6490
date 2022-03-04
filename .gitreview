@@ -1,0 +1,5 @@
+[gerrit]
+host=review.calyxos.org
+port=29418
+project=CalyxOS/kernel_fairphone_qcm6490
+defaultbranch=android14
