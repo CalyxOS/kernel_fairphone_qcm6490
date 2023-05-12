@@ -4080,9 +4080,6 @@ static int dwc3_msm_id_notifier(struct notifier_block *nb,
 	if (!edev || !mdwc)
 		return NOTIFY_DONE;
 
-	if (!mdwc->usb_data_enabled)
-		return NOTIFY_DONE;
-
 	dwc = platform_get_drvdata(mdwc->dwc3);
 
 	dbg_event(0xFF, "extcon idx", enb->idx);
@@ -4135,9 +4132,6 @@ static int dwc3_msm_vbus_notifier(struct notifier_block *nb,
 	bool is_cdp;
 
 	if (!edev || !mdwc)
-		return NOTIFY_DONE;
-
-	if (!mdwc->usb_data_enabled)
 		return NOTIFY_DONE;
 
 	dwc = platform_get_drvdata(mdwc->dwc3);
@@ -4760,13 +4754,13 @@ static ssize_t usb_data_enabled_store(struct device *dev,
 				      const char *buf, size_t count)
 {
 	struct dwc3_msm *mdwc = dev_get_drvdata(dev);
+	bool enabled;
 
-	if (kstrtobool(buf, &mdwc->usb_data_enabled))
+	if (kstrtobool(buf, &enabled))
 		return -EINVAL;
 
-	if (!mdwc->usb_data_enabled) {
-		mdwc->vbus_active = false;
-		mdwc->id_state = DWC3_ID_FLOAT;
+	mdwc->usb_data_enabled = enabled;
+	if (!enabled) {
 		dwc3_ext_event_notify(mdwc);
 	}
 
