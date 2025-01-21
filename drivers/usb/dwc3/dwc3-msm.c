@@ -6019,6 +6019,7 @@ ret:
 static int dwc3_msm_pm_suspend(struct device *dev)
 {
 	int ret = 0;
+	const char *prop_string;
 	struct dwc3_msm *mdwc = dev_get_drvdata(dev);
 	struct dwc3 *dwc = platform_get_drvdata(mdwc->dwc3);
 
@@ -6045,7 +6046,7 @@ static int dwc3_msm_pm_suspend(struct device *dev)
 	if (!ret)
 		atomic_set(&mdwc->pm_suspended, 1);
 
-	ret = of_property_read_string(dwc3_node, "dr_mode", &prop_string);
+	ret = of_property_read_string(dev->of_node, "dr_mode", &prop_string);
 	if (!ret)
 		ret = match_string(usb_dr_modes, ARRAY_SIZE(usb_dr_modes), prop_string);
 	mdwc->dr_mode = (ret < 0) ? USB_DR_MODE_UNKNOWN : ret;
