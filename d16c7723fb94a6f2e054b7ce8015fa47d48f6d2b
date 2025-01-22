@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4186869f_766f1355",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-22T23:45:13Z",
+      "side": 1,
+      "message": "This looks like a bad conflict resolution...?\n\nUpstream is https://github.com/LineageOS/android_kernel_qcom_sm8450/commit/6c71d05108f87c777191f93233b0c37efcce96c7",
+      "revId": "d16c7723fb94a6f2e054b7ce8015fa47d48f6d2b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
