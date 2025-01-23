@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e88b5f5_b69eab85",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-23T16:33:57Z",
+      "side": 1,
+      "message": "`git diff` is identical to [this checkout](https://review.calyxos.org/c/CalyxOS/kernel_fairphone_qcm6490/+/34780/5) (our changes), so looks good to me.",
+      "revId": "b606e97f6f27d76af3bc3838166416a05b588001",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
