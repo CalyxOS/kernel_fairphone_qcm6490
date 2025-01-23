@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f8e5f81_75287ef0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-23T16:04:23Z",
+      "side": 1,
+      "message": "To the extent any of this chain may impact charging speed, I think it\u0027s still more important to have this feature working properly.",
+      "revId": "9d07c13502a962c3f0599b1dd2113b6617b8c2f5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
