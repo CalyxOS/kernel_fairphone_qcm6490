@@ -16,6 +16,24 @@
       "message": "This looks like a bad conflict resolution...?\n\nUpstream is https://github.com/LineageOS/android_kernel_qcom_sm8450/commit/6c71d05108f87c777191f93233b0c37efcce96c7",
       "revId": "d16c7723fb94a6f2e054b7ce8015fa47d48f6d2b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "346deace_c975712e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-01-23T12:08:43Z",
+      "side": 1,
+      "message": "Conflicts have been now resolved properly",
+      "parentUuid": "4186869f_766f1355",
+      "revId": "d16c7723fb94a6f2e054b7ce8015fa47d48f6d2b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
