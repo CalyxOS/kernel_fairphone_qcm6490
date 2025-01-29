@@ -34,6 +34,24 @@
       "parentUuid": "bb37ac40_6e58219c",
       "revId": "62438c13b6ae2d190e51f24c851214c9f55a098e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05da919d_6aad3227",
+        "filename": "drivers/usb/dwc3/dwc3-msm.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 4251,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-29T16:53:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a31faa2d_ccbdfed8",
+      "revId": "62438c13b6ae2d190e51f24c851214c9f55a098e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
