@@ -16,6 +16,24 @@
       "message": "oops, dwc-\u003edr_mode is an enum, not a string (%s); should maybe be %d with a [cast to int](https://stackoverflow.com/questions/2161790/can-i-display-the-value-of-an-enum-with-printf#comment2105975_2161796).",
       "revId": "62438c13b6ae2d190e51f24c851214c9f55a098e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a31faa2d_ccbdfed8",
+        "filename": "drivers/usb/dwc3/dwc3-msm.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 4251,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-29T16:53:20Z",
+      "side": 1,
+      "message": "Works okay, log line output looks like e.g. this: `msm-dwc3 a600000.ssusb: dwc3_msm_role_allowed: dr_mode\u003d3 role_requested\u003dDEVICE`",
+      "parentUuid": "bb37ac40_6e58219c",
+      "revId": "62438c13b6ae2d190e51f24c851214c9f55a098e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
