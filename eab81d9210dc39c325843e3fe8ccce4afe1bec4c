@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8598f75f_576cc10a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-29T18:30:50Z",
+      "side": 1,
+      "message": "PS4 eab81d9210dc39c325843e3fe8ccce4afe1bec4c tagged as 6.3.1-2",
+      "revId": "eab81d9210dc39c325843e3fe8ccce4afe1bec4c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3d01165c_f25475d7",
