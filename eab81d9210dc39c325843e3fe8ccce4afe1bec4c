@@ -33,6 +33,24 @@
       "message": "Note: This function is not modified at all in the original commit being reverted, because it was added in the commit after it.\n\n1. Commit being reverted: 34778: usb: dwc3: dwc3-msm: Save dr_mode from DWC3 core node into mdwc | https://review.calyxos.org/c/CalyxOS/kernel_fairphone_qcm6490/+/34778\n2. Commit after it: 34779: usb: dwc3: dwc3-msm-core: Reject incompatible role/mode request | https://review.calyxos.org/c/CalyxOS/kernel_fairphone_qcm6490/+/34779\n\nCan adjust commit message to reflect that to avoid future confusion.",
       "revId": "eab81d9210dc39c325843e3fe8ccce4afe1bec4c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2448bd1a_eeff53a5",
+        "filename": "drivers/usb/dwc3/dwc3-msm.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 4247,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-30T10:25:32Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "3d01165c_f25475d7",
+      "revId": "eab81d9210dc39c325843e3fe8ccce4afe1bec4c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
