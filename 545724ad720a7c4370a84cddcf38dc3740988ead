@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8975cb88_3d95fcbc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-01-30T10:31:01Z",
+      "side": 1,
+      "message": "Diff is empty vs https://review.calyxos.org/c/CalyxOS/kernel_fairphone_qcm6490/+/34915\n\nIdentical, so copying approvals",
+      "revId": "545724ad720a7c4370a84cddcf38dc3740988ead",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
